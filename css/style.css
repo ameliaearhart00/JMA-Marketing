@@ -129,7 +129,7 @@ HEADER
 ***********************************/
 
 .header {
-  background: url("../img/Showroom.jpg") no-repeat fixed;
+  background: url("../img/jumbotron-showroom.jpg") no-repeat fixed;
   background-size: cover;
   min-height: 650px;
   position: relative;
@@ -286,9 +286,51 @@ h2.bnr-sub-title {
 
 /***********************************
 ************************************
+ABOUT US
+************************************
+***********************************/
+
+.member-photo {
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 0 20px 0;
+}
+.member-photo img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.team-detail h4 {
+  font-weight: 700;
+}
+
+.team-member,
+.col-md-6 {
+  margin-bottom: 30px;
+}
+
+/***********************************
+************************************
 features
 ************************************
 ***********************************/
+
+nav#filter {
+  margin-bottom: 1.5em;
+}
+
+nav#filter li {
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+nav#filter a {
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+}
 
 .title,
 .service-title {
