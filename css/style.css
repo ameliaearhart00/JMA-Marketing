@@ -1,9 +1,12 @@
 /*
-    Theme Name: Baker
-    Theme URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
+    Theme Name: JMA Marketing
+    Author: You + Me = WE
+    Author URL: https://jma-marketing.com
 */
+
+/* * {
+  outline: thin solid green;
+} */
 
 body {
   line-height: 1.4;
@@ -126,7 +129,7 @@ HEADER
 ***********************************/
 
 .header {
-  background: url("../img/bg-banner02.jpg") no-repeat fixed;
+  background: url("../img/Showroom.jpg") no-repeat fixed;
   background-size: cover;
   min-height: 650px;
   position: relative;
@@ -180,8 +183,6 @@ HEADER
 
 .navbar-brand {
   padding: 0px;
-  font-size: 24px;
-  text-transform: uppercase;
   padding: 15px 0px;
   margin-top: 6px;
 }
@@ -266,7 +267,7 @@ h2.bnr-sub-title {
 .btn-more,
 .btn-more:focus {
   margin-left: 15px;
-  border: 1px solid #be9e21;
+  border: 3px solid #be9e21;
   color: #be9e21;
 }
 
@@ -477,7 +478,7 @@ ul.service-list li i {
   width: 100%;
   height: 100%;
   padding: 59px 30px;
-  background-color: #be9e21;
+  background-color: rgba(64, 75, 97, 0.9);
   backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -812,11 +813,10 @@ contact
 
 /***********************************
 ************************************
-contact
+Footer
 ************************************
-***********************************/
-
-#footer {
+********************************/
+*** #footer {
   padding: 20px 0px;
 }
 
@@ -843,6 +843,115 @@ contact
 #footer a {
   color: #be9e21;
   font-weight: 400;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mar-bot20 {
+  margin-bottom: 20px;
+}
+
+.pad-top50 {
+  padding-top: 50px;
+}
+
+.credits {
+  font-size: 12px;
+}
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer menu */
+ul.footer-menu {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.footer-menu li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* --- Template Components ----
+===========================  */
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #0590b8;
+}
+.social-network a.icoInstagram:hover {
+  background-color: #33ccff;
+}
+.social-network a.icoVimeo:hover {
+  background-color: #0590b8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: black;
+}
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: black;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 /***********************************
