@@ -1,3 +1,5 @@
+$(".carousel").carousel();
+
 (function($) {
   // Init Wow
   wow = new WOW({
