@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -152,7 +152,7 @@ HEADER
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    background: rgba(64, 75, 97, 0.9);
+    background: rgba(80, 95, 101, 0.9);
     border-top: 0;
   }
 }
@@ -163,11 +163,11 @@ HEADER
 
 .top-nav-collapse {
   padding: 0;
-  background: rgba(64, 75, 97, 0.9);
+  background: rgba(80, 95, 101, 0.9);
 }
 
 .logo-dec {
-  color: #be9e21;
+  color: #acbdbe;
 }
 
 .navbar-default .navbar-brand {
@@ -202,14 +202,14 @@ HEADER
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #be9e21;
+  color: #acbdbe;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
-  color: #be9e21;
+  color: #acbdbe;
 }
 
 .banner-info {
@@ -217,15 +217,21 @@ HEADER
   color: #fff;
 }
 
-.bnr-title,
+.bnr-title {
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+}
+
 .bnr-sub-title {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira-Sans", sans-serif;
 }
 
 h1.bnr-title {
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-top: 50px;
+  color: #d0dee2;
 }
 
 h2.bnr-sub-title {
@@ -233,6 +239,7 @@ h2.bnr-sub-title {
   text-transform: uppercase;
   padding: 20px 0px;
   font-weight: 700;
+  color: #daa382;
 }
 
 .bnr-para {
@@ -261,18 +268,18 @@ h2.bnr-sub-title {
 }
 
 .btn-download {
-  background-color: #be9e21;
+  background-color: #acbdbe;
 }
 
 .btn-more,
 .btn-more:focus {
   margin-left: 15px;
-  border: 3px solid #be9e21;
-  color: #be9e21;
+  border: 3px solid #daa382;
+  color: #acbdbe;
 }
 
 .btn-more:hover {
-  background: #be9e21;
+  background: #5d6a70;
   color: #fff;
 }
 
@@ -354,7 +361,7 @@ nav#filter a {
   border-top: 0px;
   height: 3px;
   width: 40px;
-  background-color: #be9e21;
+  background-color: #ac785b;
 }
 
 .wrap-item h3 {
@@ -380,7 +387,7 @@ nav#filter a {
 }
 
 #service {
-  background-color: #f3f4f8;
+  background-color: white;
 }
 
 ul.service-list li i {
@@ -415,7 +422,7 @@ ul.service-list li i {
   width: 175px;
   display: inline-block;
   text-align: center;
-  color: #495376;
+  color: #5d6a70;
   line-height: 50px;
   text-transform: uppercase;
   font-size: 16px;
@@ -426,6 +433,10 @@ ul.service-list li i {
   -webkit-transition: all 0.3s;
 }
 
+.visit-portfolio a {
+  color: #d0dee2;
+}
+
 .bx-wrapper img {
   width: 70px;
   display: inline-block;
@@ -434,7 +445,12 @@ ul.service-list li i {
   margin-bottom: 15px;
 }
 
-.service-item h3 span {
+.about-item {
+  display: block;
+  margin: 0;
+}
+
+.about-item h3 span {
   opacity: 0.7;
   font-size: 75px;
   line-height: 1;
@@ -444,18 +460,23 @@ ul.service-list li i {
   padding-right: 6px;
 }
 
-.service-item h3 {
+.about-item h3 {
   font-weight: 700;
 }
 
-.service-item p {
+.about-item p {
   opacity: 0.6;
   color: inherit;
   padding: 10px 0px;
 }
 
-.service-item a {
-  color: #be9e21;
+.about-item a {
+  color: #5d6a70;
+}
+
+.about-name {
+  font-size: 20px;
+  color: #657778;
 }
 
 .mr-btn-15 {
@@ -513,6 +534,14 @@ ul.service-list li i {
   color: #fff;
   text-align: left;
 }
+.portfolio-item figure figcaption a {
+  display: block;
+  line-height: 14px;
+  margin: 0;
+  color: #d0dee2;
+  padding-top: 10px;
+  text-align: left;
+}
 
 .portfolio-item figure figcaption {
   top: 0;
@@ -520,7 +549,7 @@ ul.service-list li i {
   width: 100%;
   height: 100%;
   padding: 59px 30px;
-  background-color: rgba(64, 75, 97, 0.9);
+  background-color: #5d6a70;
   backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -529,6 +558,10 @@ ul.service-list li i {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
   text-align: center;
+}
+
+.portfolio-item a {
+  color: #acbdbe;
 }
 
 .portfolio-item figure img {
@@ -776,7 +809,7 @@ contact
 ***********************************/
 
 #contact {
-  background-color: rgb(73, 84, 105);
+  background-color: #5d6a70;
 }
 
 .btn-submit,
@@ -784,35 +817,34 @@ contact
 .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
-  color: #be9e21;
+  color: #cbdbe;
   font-weight: 400;
-  border: 1px solid #be9e21;
+  border: 1px solid #acbdbe;
   font-size: 14px;
   padding: 6px 20px;
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: white;
   border-radius: 0px;
-  color: #be9e21 !important;
-  border-color: #be9e21;
+  color: #d0dee2 !important;
+  border-color: #daa382;
 }
 
 .form-control:focus {
-  border-color: #be9e21;
+  border-color: #daa382;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #acbdbe;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
 }
 
 .contact-form input.form-control {
-  color: #fff;
+  color: #daa382;
 }
 
 .validation {
-  color: red;
+  color: yellow;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -830,9 +862,9 @@ contact
 }
 
 #errormessage {
-  color: red;
+  color: yellow;
   display: none;
-  border: 1px solid red;
+  border: 1px solid yellow;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -850,7 +882,7 @@ contact
 }
 
 .loction-info p i {
-  color: #be9e21;
+  color: #daa382;
 }
 
 /***********************************
@@ -883,7 +915,7 @@ Footer
 }
 
 #footer a {
-  color: #be9e21;
+  color: #ac785b;
   font-weight: 400;
 }
 
@@ -933,16 +965,14 @@ ul.footer-menu li {
 /* footer social icons */
 
 .social-network a.icoFacebook:hover {
-  background-color: #0590b8;
+  background-color: #657778;
 }
 .social-network a.icoInstagram:hover {
-  background-color: #33ccff;
+  background-color: #d0dee2;
 }
-.social-network a.icoVimeo:hover {
-  background-color: #0590b8;
-}
+
 .social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+  background-color: #acbdbe;
 }
 .social-network a.icoRss:hover i,
 .social-network a.icoFacebook:hover i,
@@ -1026,7 +1056,7 @@ cta
 
 .cta .cta-info .cta-btn {
   margin-top: 16px;
-  background-color: rgb(190, 158, 33);
+  background-color: #d0dee2;
   padding: 20px 50px;
   color: #fff;
   font-size: 22px;
@@ -1041,7 +1071,7 @@ Responsive media queries
 ***********************************/
 
 @media (min-width: 768px) and (max-width: 980px) {
-  .service-item,
+  .about-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
@@ -1056,7 +1086,7 @@ Responsive media queries
 }
 
 @media (min-width: 451px) and (max-width: 767px) {
-  .service-item,
+  .about-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
@@ -1077,6 +1107,7 @@ Responsive media queries
   }
   h2.bnr-sub-title {
     font-size: 33px;
+    color: #be9e21;
   }
   body {
     font-size: 14px;
@@ -1100,7 +1131,7 @@ Responsive media queries
   .sub-title {
     font-size: 15px;
   }
-  .service-item,
+  .about-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
@@ -1116,8 +1147,15 @@ Responsive media queries
     padding-right: 15px !important;
   }
   .portfolio-item figure p {
-    font-size: 14px;
+    font-size: 20px;
+    padding-top: 45px;
   }
+
+  .portfolio-item figure a {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
   .portfolio-item figure h2 {
     font-size: 18px;
   }
