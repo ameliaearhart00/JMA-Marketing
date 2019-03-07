@@ -230,7 +230,7 @@ h1.bnr-title {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-top: 50px;
+  padding-top: 30px;
   color: #d0dee2;
 }
 
@@ -308,6 +308,7 @@ ABOUT US
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  padding-top: 20px;
 }
 
 .team-detail h4 {
@@ -1103,14 +1104,16 @@ Responsive media queries
     padding-top: 40px;
   }
   h1.bnr-title {
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 100px;
+    color: #d0dee2;
   }
   h2.bnr-sub-title {
-    font-size: 33px;
-    color: #be9e21;
+    font-size: 32px;
+    color: #daa382;
   }
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
   .btn-download,
   .btn-more,
@@ -1168,5 +1171,9 @@ Responsive media queries
   .navbar-default .navbar-nav > li > a {
     line-height: 22px;
     text-align: center;
+  }
+
+  .item-img {
+    padding-top: 25px;
   }
 }
