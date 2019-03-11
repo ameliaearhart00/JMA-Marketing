@@ -150,6 +150,10 @@ HEADER
   transition: all 0.3s;
 }
 
+.top-nav-collapse .navbar-brand img {
+  height: 30px;
+}
+
 @media (max-width: 768px) {
   .navbar-collapse {
     background: rgba(80, 95, 101, 0.9);
@@ -805,6 +809,19 @@ Blog
 
 /***********************************
 ************************************
+Carousal/Installation Gallery
+************************************
+***********************************/
+.carousel .item img {
+  margin: 0 auto;
+}
+
+.carousel {
+  background: black;
+}
+
+/***********************************
+************************************
 contact
 ************************************
 ***********************************/
@@ -1176,4 +1193,14 @@ Responsive media queries
   .item-img {
     padding-top: 25px;
   }
+}
+
+.mapouter {
+  text-align: right;
+  height: 200px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
 }

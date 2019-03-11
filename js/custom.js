@@ -60,47 +60,47 @@ $(".carousel").carousel();
   });
 
   //testimonial
-  jQuery(".testimonials-slider").flexslider({
-    animation: "slide",
-    directionNav: true,
-    controlNav: true,
-    pauseOnHover: true,
-    slideshowSpeed: 4000,
-    direction: "horizontal" //Direction of slides
-  });
+  // jQuery(".testimonials-slider").flexslider({
+  //   animation: "slide",
+  //   directionNav: true,
+  //   controlNav: true,
+  //   pauseOnHover: true,
+  //   slideshowSpeed: 4000,
+  //   direction: "horizontal" //Direction of slides
+  // });
 
-  if (Modernizr.mq("screen and (max-width:1024px)")) {
-    jQuery("body").toggleClass("body");
-  } else {
-    var s = skrollr.init({
-      mobileDeceleration: 1,
-      edgeStrategy: "set",
-      forceHeight: true,
-      smoothScrolling: true,
-      smoothScrollingDuration: 300,
-      easing: {
-        WTF: Math.random,
-        inverted: function(p) {
-          return 1 - p;
-        }
-      }
-    });
-  }
+  // if (Modernizr.mq("screen and (max-width:1024px)")) {
+  //   jQuery("body").toggleClass("body");
+  // } else {
+  // var s = skrollr.init({
+  //   mobileDeceleration: 1,
+  //   edgeStrategy: "set",
+  //   forceHeight: true,
+  //   smoothScrolling: true,
+  //   smoothScrollingDuration: 300,
+  //   easing: {
+  //     WTF: Math.random,
+  //     inverted: function(p) {
+  //       return 1 - p;
+  //     }
+  //   }
+  // });
+  // }
   //scroll menu
-  jQuery(".appear").appear();
-  jQuery(".appear").on("appear", function(data) {
-    var id = $(this).attr("id");
-    jQuery(".nav li").removeClass("active");
-    jQuery(".nav a[href='#" + id + "']")
-      .parent()
-      .addClass("active");
-  });
+  // jQuery(".appear").appear();
+  // jQuery(".appear").on("appear", function(data) {
+  //   var id = $(this).attr("id");
+  //   jQuery(".nav li").removeClass("active");
+  //   jQuery(".nav a[href='#" + id + "']")
+  //     .parent()
+  //     .addClass("active");
+  // });
 
   // Testimonials Slider
-  $(".bxslider").bxSlider({
-    adaptiveHeight: true,
-    mode: "fade"
-  });
+  // $(".bxslider").bxSlider({
+  //   adaptiveHeight: true,
+  //   mode: "fade"
+  // });
 })(jQuery);
 
 // portfolio
@@ -110,7 +110,7 @@ if ($(".isotopeWrapper").length) {
   // initialize isotope
 
   $container.isotope({
-    itemSelector: ".isotopeItem",
+    itemSelector: ".portfolio-item",
     resizable: false, // disable normal resizing
     masonry: {
       columnWidth: $container.width() / $resize
