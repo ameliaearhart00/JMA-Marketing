@@ -306,17 +306,17 @@ ABOUT US
 ***********************************/
 
 .member-photo {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
   margin: 0 0 20px 0;
 }
 .member-photo img {
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
-  padding-top: 20px;
+  border-radius: 50%; */
+  padding-top: 50px;
 }
 
 .team-detail h4 {
@@ -326,6 +326,42 @@ ABOUT US
 .team-member,
 .col-md-6 {
   margin-bottom: 30px;
+}
+
+.about-item {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-item h3 span {
+  opacity: 0.7;
+  font-size: 75px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  font-weight: 900;
+  padding-right: 6px;
+}
+
+.about-item h3 {
+  font-weight: 700;
+  align-content: left;
+}
+
+.about-item p {
+  opacity: 0.6;
+  color: inherit;
+  padding: 10px 0px;
+  align-content: left;
+}
+
+.about-item a {
+  color: #5d6a70;
+}
+
+.about-name {
+  font-size: 20px;
+  color: #657778;
 }
 
 /***********************************
@@ -452,40 +488,6 @@ ul.service-list li i {
   border-radius: 50%;
   border: 5px solid #fff;
   margin-bottom: 15px;
-}
-
-.about-item {
-  display: block;
-  margin: 0;
-}
-
-.about-item h3 span {
-  opacity: 0.7;
-  font-size: 75px;
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: -5px;
-  font-weight: 900;
-  padding-right: 6px;
-}
-
-.about-item h3 {
-  font-weight: 700;
-}
-
-.about-item p {
-  opacity: 0.6;
-  color: inherit;
-  padding: 10px 0px;
-}
-
-.about-item a {
-  color: #5d6a70;
-}
-
-.about-name {
-  font-size: 20px;
-  color: #657778;
 }
 
 .mr-btn-15 {
