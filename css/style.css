@@ -316,7 +316,7 @@ ABOUT US
   /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%; */
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .team-detail h4 {
@@ -331,6 +331,8 @@ ABOUT US
 .about-item {
   display: block;
   margin: 0 auto;
+  padding: 70px;
+  align-content: left;
 }
 
 .about-item h3 span {
