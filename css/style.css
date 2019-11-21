@@ -1,6 +1,6 @@
 /*
     Theme Name: JMA Marketing
-    Author: You + Me = WE
+    Author: Equals WE
     Author URL: https://jma-marketing.com
 */
 
@@ -13,6 +13,27 @@ body {
   font-family: "Roboto", sans-serif;
   color: #67696c;
   font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+}
+
+p .small {
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  color: #67696c;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+}
+
+p .left {
+  line-height: 1.4;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: #67696c;
+  font-size: 12px;
   font-weight: 300;
   letter-spacing: 0.5px;
   overflow-x: hidden;
