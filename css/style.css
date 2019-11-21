@@ -599,6 +599,7 @@ ul.service-list li i {
 .portfolio-item figure:hover img,
 figure.hover img {
   opacity: 0;
+  z-index: -1;
 }
 
 .portfolio-item figure:hover figcaption,
