@@ -552,7 +552,6 @@ ul.service-list li i {
 .portfolio-item figure figcaption {
   display: block;
   position: absolute;
-  z-index: 5;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -589,39 +588,22 @@ ul.service-list li i {
   height: 100%;
   padding: 59px 30px;
   background-color: #5d6a70;
-  backface-visibility: hidden;
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
   text-align: center;
+  opacity: 0;
 }
 
 .portfolio-item a {
   color: #acbdbe;
 }
 
-.portfolio-item figure img {
-  backface-visibility: hidden;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
 .portfolio-item figure:hover img,
 figure.hover img {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  opacity: 0;
 }
 
 .portfolio-item figure:hover figcaption,
 figure.hover figcaption {
-  -webkit-transform: rotateY(0);
-  -moz-transform: rotateY(0);
-  transform: rotateY(0);
+  opacity: 1;
 }
 
 /* ==========================
